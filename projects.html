@@ -1,30 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Projects</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Explore web development projects created by Siyasanga Blayi."
+  >
+  <title>Projects | Siyasanga Blayi</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="header">
-        <h1>My Projects</h1>
-    </div>
-    
-    <div>
-        <h2>Project 1</h2>
-        <img src="images/project1.jpg">
-        <p>A responsive website built with HTML and CSS.</p>
-    </div>
-    
-    <div>
-        <h2>Project 2</h2>
-        <img src="images/project2.jpg">
-        <p>An e-commerce site with modern design.</p>
-    </div>
-    
-    <!-- Third project missing -->
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+  <header class="header">
+    <h1>My Projects</h1>
+
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="projects.html" aria-current="page">Projects</a>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projects-section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Featured Projects</h2>
+
+      <article class="project-card">
+        <img
+          src="images/project1.jpg"
+          alt="Preview of a responsive portfolio website"
+        >
+        <h3>Portfolio Website</h3>
+        <p>
+          A multi-page portfolio built with semantic HTML and responsive CSS.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <img
+          src="images/project2.jpg"
+          alt="Preview of a personal profile card"
+        >
+        <h3>Personal Profile Card</h3>
+        <p>
+          A profile card demonstrating typography, spacing, and the CSS
+          box model.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <img
+          src="images/project3.jpg"
+          alt="Preview of a product landing page"
+        >
+        <h3>Product Landing Page</h3>
+        <p>
+          A structured landing page with clear sections and responsive
+          content.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Contact me at
+      <a href="mailto:siyasanga.blayi@umuzi.org">
+        siyasanga.blayi@umuzi.org
+      </a>
+    </p>
+  </footer>
 </body>
 </html>
