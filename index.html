@@ -11,24 +11,52 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>My Portfolio</h1>
-        <!-- Navigation missing -->
-    </div>
+    <header class="header">
+  <h1>My Portfolio</h1>
+
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
     
-    <div class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>I am a web developer passionate about creating beautiful websites.</p>
-        <img src="images/hero.jpg">
-    </div>
-    
-    <div class="intro">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+    <main>
+  <section class="hero" aria-labelledby="hero-title">
+    <h2 id="hero-title">Welcome to My Portfolio</h2>
+
+    <p>
+      Hello, I’m Siyasanga, an aspiring web developer who enjoys building
+      accessible and user-friendly websites.
+    </p>
+
+    <img
+      src="images/hero.jpg"
+      alt="A web developer working at a computer"
+    >
+  </section>
+
+  <section class="intro" aria-labelledby="about-title">
+    <h2 id="about-title">About Me</h2>
+
+    <p>
+      I am developing my HTML and CSS skills through practical projects.
+      This portfolio presents my progress, technical skills, and completed
+      work.
+    </p>
+
+    <a href="about.html">Learn more about me</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>
+    Contact me at
+    <a href="mailto:your-email@example.com">siyasanga,blayi@umuzi.org</a>
+  </p>
+</footer>
 </body>
 </html>
