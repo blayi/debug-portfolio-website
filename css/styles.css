@@ -195,6 +195,12 @@ main h2 {
   border-radius: 2rem;
 }
 
+.header nav a,
+.button,
+button {
+  transition: background-color 0.2s ease;
+}
+
 .primary-button {
   color: var(--white);
   background-color: var(--olive);
@@ -573,4 +579,9 @@ button:focus {
   button {
     width: 100%;
   }
+}
+
+/* The message ID targets this one unique form field */
+#message {
+  min-height: 10rem;
 }

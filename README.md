@@ -1,36 +1,96 @@
-# Portfolio Website Starter Code
+# Siyasanga Blayi Portfolio
 
-This is the starter codebase for your portfolio website project. The code is approximately 70% complete but contains errors, omissions, and areas that need improvement.
+## Overview
 
-## What's Included
+This is a responsive four-page portfolio website created using HTML and CSS. Its purpose is to introduce me as an aspiring web developer, display my skills and projects, and provide an accessible contact form.
 
-- `index.html` - Home page (incomplete)
-- `about.html` - About page (incomplete)
-- `projects.html` - Projects page (incomplete)
-- `contact.html` - Contact page (incomplete)
-- `css/styles.css` - Stylesheet (incomplete and with errors)
-- `images/` folder - Placeholder folder for your images
+The website contains the following pages:
 
-## Your Task
+- Home
+- About
+- Projects
+- Contact
 
-Review the provided code carefully and:
-1. Identify and fix all errors
-2. Complete all missing requirements
-3. Improve the code quality
-4. Test your website thoroughly
+## Issues Found
 
-## Getting Started
+The starter website contained several errors and missing features:
 
-1. Review all HTML and CSS files
-2. Run your HTML through the W3C Validator
-3. Run your CSS through the W3C CSS Validator
-4. Test your website in multiple browsers
-5. Fix issues and complete missing elements
+- Missing semantic HTML elements
+- Missing navigation links
+- Missing images and alternative text
+- Incomplete project information
+- Missing table content
+- Form controls without labels
+- Missing form validation
+- Incomplete CSS styling
+- Poor spacing and alignment
+- No responsive layout
 
-## Notes
+A more detailed list is available in design/issues-identified.txt.
 
-- You will need to add your own images to the `images/` folder
-- The starter code intentionally has issues for you to discover and fix
-- Refer to the project requirements document for all specifications
+## Fixes Implemented
 
-Good luck!
+I added descriptive page titles, character encoding, viewport metadata, and semantic elements such as header, nav, main, section, article, and footer.
+
+I created consistent navigation on all four pages and added five images with descriptive alternative text. The About page now contains a structured skills table with three rows and two columns.
+
+The Contact page includes:
+
+- Full-name input
+- Email input
+- Telephone input
+- Select menu
+- Radio buttons
+- Checkbox
+- Message area
+- Submit button
+- Labels and validation attributes
+
+The stylesheet uses element, class, ID, descendant, attribute, and pseudo-class selectors. I used Flexbox, Grid, responsive images, and two media queries to support desktop, tablet, and mobile screens.
+
+The final olive colour palette provides good contrast and consistent styling. All four HTML pages and the CSS pass W3C validation.
+
+## How to View
+
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open index.html in a web browser.
+4. Use the navigation menu to visit the other pages.
+
+No installation or external dependencies are required.
+
+## Screenshots
+
+### Homepage
+
+![Completed portfolio homepage](screenshots/final-homepage.png)
+
+### About Page and Skills Table
+
+![Completed About page and styled table](screenshots/final-about.png)
+
+### Projects Page
+
+![Completed Projects page](screenshots/final-projects.png)
+
+### Contact Page
+
+![Completed Contact page](screenshots/final-contact.png)
+
+### Form Validation
+
+![Contact form showing browser validation](screenshots/contact-form-validation.png)
+
+### Navigation Hover State
+
+![Navigation menu showing a hover state](screenshots/navigation-hover.png)
+
+### Homepage Before Improvements
+
+![Starter homepage before improvements](screenshots/before-homepage.png)
+
+## Reflection
+
+The most challenging parts were correcting the semantic structure, creating an accessible form, and making the layout work at different screen sizes.
+
+I solved these problems by checking each requirement individually, testing the navigation and form, resizing the browser, and using the W3C validators. This project helped me understand how HTML provides structure while CSS controls presentation and responsive layout.

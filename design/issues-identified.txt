@@ -1,59 +1,61 @@
 Issues Identified
 
-Common issues across all HTML pages
+Common HTML issues
 
-1. The html elements have no lang attribute; add lang="en".
-2. Character-encoding metadata is missing; add UTF-8 charset metadata.
-3. Responsive viewport metadata is missing; add the viewport meta tag.
-4. Stylesheet paths point to css/styles.css, but styles.css is in the root; correct the location or paths.
-5. Navigation is missing from all pages; add four working links to every page.
-6. Generic header divs are used; replace them with header elements.
-7. Page content lacks main and section elements; improve the semantic structure.
-8. Generic footer divs are used; replace them with footer elements.
-9. Page titles are too general; make each title descriptive and unique.
+1. The html elements were missing the lang attribute.
+2. Character-encoding metadata was missing.
+3. Responsive viewport metadata was missing.
+4. Page titles were too general.
+5. Navigation was missing from all four pages.
+6. Generic divs were used instead of semantic elements.
+7. Pages lacked clear main and section structures.
+8. Generic footer divs needed replacement.
+9. The stylesheet path needed correction.
 
 index.html
 
-10. The hero image file is missing; add the image to an images folder.
-11. The hero image has no alt text; add a descriptive alt attribute.
-12. Placeholder Lorem ipsum text remains; replace it with personal content.
+10. The hero image was missing.
+11. The image needed descriptive alternative text.
+12. Placeholder text needed personal portfolio content.
 
 about.html
 
-13. The profile image is missing and has no alt text; add both.
-14. The required data table is missing; create a semantic table with headers, at least three rows and two columns.
-15. The skills content is incomplete; replace the short placeholder list with meaningful information.
+13. The profile image and alternative text were missing.
+14. The required skills table was missing.
+15. The skills information was incomplete.
 
 projects.html
 
-16. Project images are missing and have no alt text; add accessible images.
-17. A third project is missing; create another project entry.
-18. Project containers are generic divs; use sections or articles.
+16. Project images and alternative text were missing.
+17. A third project needed to be added.
+18. Generic project containers needed article elements.
 
 contact.html
 
-19. Form controls have no labels; add associated label elements.
-20. The email field incorrectly uses type="text"; use type="email".
-21. Form controls lack id and name attributes; add meaningful values.
-22. The form lacks five different input types; add select, checkbox or radio controls.
-23. HTML validation is missing; add required, minlength, pattern or similar attributes.
-24. The button has no explicit type; set it to type="submit".
+19. Form controls did not have associated labels.
+20. The email field used the wrong input type.
+21. Form controls needed meaningful id and name attributes.
+22. The form lacked enough control varieties.
+23. HTML validation attributes were missing.
+24. The submit button needed an explicit type.
 
 styles.css
 
-25. Navigation styling is missing; style the menu and links.
-26. Selector variety is insufficient; add ID, descendant and pseudo-class selectors appropriately.
-27. Hover and focus states are missing; add accessible interactive states.
-28. Box-model usage is incomplete; add suitable margins, padding and borders.
-29. Table styling is missing; add borders, spacing and alternating row colours.
-30. Form styling is incomplete; create clear spacing and visual hierarchy.
-31. Layout and responsiveness are incomplete; use flexbox and a media query.
-32. Image sizing needs improvement; prevent distortion and overflow.
-33. The footer is left-aligned and its contrast needs checking; centre it and use accessible colours.
-34. CSS organisation and comments need improvement; group related rules and add meaningful comments.
+25. Navigation styling was missing.
+26. The stylesheet lacked enough selector types.
+27. Hover, focus, and transition effects were missing.
+28. Box-model properties were insufficient.
+29. Text and background contrast required improvement.
+30. The table had no visual styling.
+31. The form lacked spacing and hierarchy.
+32. Responsive layouts and media queries were missing.
+33. Images needed responsive sizing.
+34. CSS comments and organisation required improvement.
 
 Documentation
 
-35. The README lacks the required sections, screenshots, reflection and How to View instructions.
-36. A four-page wireframe or sitemap still needs to be created.
-37. The required final screenshots still need to be produced.
+35. The README, screenshots, issues document, and wireframe were incomplete.
+
+Approach
+
+I corrected the shared HTML structure first, then completed each page’s missing content. I added accessible labels, alternative text, form validation, and semantic elements. After completing the HTML, I created a consistent olive design, styled the navigation, table, form, and projects, and added responsive layouts. Finally, I tested every link and form control and validated all HTML and CSS using the W3C validators.
