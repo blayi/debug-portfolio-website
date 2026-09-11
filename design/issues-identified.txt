@@ -1,60 +1,62 @@
 Issues Identified
 
-Common HTML issues
+ HTML issues
 
 1. The html elements were missing the lang attribute.
 2. Character-encoding metadata was missing.
 3. Responsive viewport metadata was missing.
-4. Page titles were too general.
-5. Navigation was missing from all four pages.
+4. Navigation was missing from all four pages.
+5. The stylesheet path needed correction.
 6. Generic divs were used instead of semantic elements.
 7. Pages lacked clear main and section structures.
 8. Generic footer divs needed replacement.
-9. The stylesheet path needed correction.
+9. Page titles were too general.
+
+
 
 index.html
 
-10. The hero image was missing.
-11. The image needed descriptive alternative text.
-12. Placeholder text needed personal portfolio content.
+9. The hero image was missing.
+10. The image needed descriptive alternative text.
+11. Placeholder text needed personal portfolio content.
 
 about.html
 
-13. The profile image and alternative text were missing.
-14. The required skills table was missing.
-15. The skills information was incomplete.
+12. The profile image and alternative text were missing.
+13. The required skills table was missing.
+14. The skills information was incomplete.
 
 projects.html
 
-16. Project images and alternative text were missing.
-17. A third project needed to be added.
-18. Generic project containers needed article elements.
+15. Project images and alternative text were missing.
+16. A third project needed to be added.
+17. Generic project containers needed article elements.
 
 contact.html
 
-19. Form controls did not have associated labels.
-20. The email field used the wrong input type.
-21. Form controls needed meaningful id and name attributes.
-22. The form lacked enough control varieties.
-23. HTML validation attributes were missing.
-24. The submit button needed an explicit type.
+18. Form controls did not have associated labels.
+19. The email field used the wrong input type.
+20. Form controls needed meaningful id and name attributes.
+21. The form lacked enough control varieties.
+22. HTML validation attributes were missing.
+23. The submit button needed an explicit type.
 
 styles.css
 
-25. Navigation styling was missing.
-26. The stylesheet lacked enough selector types.
-27. Hover, focus, and transition effects were missing.
-28. Box-model properties were insufficient.
-29. Text and background contrast required improvement.
-30. The table had no visual styling.
-31. The form lacked spacing and hierarchy.
-32. Responsive layouts and media queries were missing.
-33. Images needed responsive sizing.
-34. CSS comments and organisation required improvement.
+24. Navigation styling was missing.
+25. The stylesheet lacked enough selector types.
+26. Hover, focus, and transition effects were missing.
+27. Box-model properties were insufficient.
+28. Text and background contrast required improvement.
+29. The table had no visual styling.
+30. The form lacked spacing and hierarchy.
+31. Responsive layouts and media queries were missing.
+32. Images needed responsive sizing.
+33. CSS comments and organisation required improvement.
 
 Documentation
 
-35. The README, screenshots, issues document, and wireframe were incomplete.
+34. The README, screenshots, issues document, and wireframe were incomplete.
 
 Approach
 
